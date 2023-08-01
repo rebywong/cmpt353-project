@@ -10,13 +10,14 @@ Please ensure that the following libraries have been installed prior to running 
 * `matplotlib`
 * `numpy`
 * `pandas`
+* `seaborn`
 
 ## How do we run the project?
 The file `vancouver_transit.ipynb` should have all the contents of running our project saved. Feel free to click on the `Kernel` and `Restart & Run All` as needed to rerun the code and reproduce the results. Since this is the only file, there is no order of execution.
 
 We used a Jupyter notebook due to our heavy use of visuals in the project to map out transit data across regions of Vancouver, and being able to view all of the graphs in one notebook was convenient.
 
-## Files Expected
+## Which input files are expected?
 Ensure that everything from the `data` folder has been downloaded, keeping the exact naming of the `data` directory. These input data files include:
 * `CensusLocalAreaProfiles2016.csv` - 2016 census information pertaining to different Vancouver neighbourhoods ([source](https://opendata.vancouver.ca/explore/dataset/census-local-area-profiles-2016/information/))
 * `local-area-boundary.zip` - identifies boundaries in geometry of where the different Vancouver neighbourhoods are located ([source](https://opendata.vancouver.ca/explore/dataset/local-area-boundary/information/))
