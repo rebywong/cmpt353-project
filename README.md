@@ -10,6 +10,7 @@ Please ensure that the following libraries have been installed prior to running 
 * `matplotlib`
 * `numpy`
 * `pandas`
+* `scipy`
 * `seaborn`
 
 ## How do we run the project?
@@ -24,5 +25,8 @@ Ensure that everything from the `data` folder has been downloaded, keeping the e
 * `transit.zip` - Vancouver transit quality data ([source](https://doi.org/10.25314/5e94d820-678e-4d3a-9a97-51fb730d5cf5))
 * `translink-annual-journeys.csv` - Translink data for transit journeys taken per year (i.e. transferring buses multiple times to reach a destination would still be one journey) ([source](https://www.translink.ca/plans-and-projects/data-and-information/accountability-centre/ridership))
 * `translink-historic-ridership-trend.csv` - Translink data for ridership stats (in which each tap into public transit counts as a ride, as opposed to the 'journey' measurement above) ([source](https://www.translink.ca/plans-and-projects/data-and-information/accountability-centre/ridership))
+
+## What files are produced?
+Ensure that a folder named `output` exists prior to running the code. Within this folder, running the Jupyter Notebook (or pulling this repository) will produce an output file `neighbourhood_transit_quality.csv` containing the aggregated results of processing transit quality scores for each neighbourhood, along with each corresponding neighbourhood's population.
 
 And that's all! Thanks for looking at our project, and have fun!
