@@ -12,6 +12,7 @@ Please ensure that the following libraries have been installed prior to running 
 * `pandas`
 * `scipy`
 * `seaborn`
+* `shapely`
 
 ## How do we run the project?
 The file `vancouver_transit.ipynb` should have all the contents of running our project saved. Feel free to click on the `Kernel` and `Restart & Run All` as needed to rerun the code and reproduce the results. Since this is the only file, there is no order of execution.
